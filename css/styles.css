@@ -1,24 +1,33 @@
 body{
 margin: 0;
+text-align: center;
 }
 
 div{
     background-color: #F5EFE6;
+    padding: 10px;
     border: solid 10px;
-    width: 300px;
-    height: 200px;
 }
 h1{
+    font-family: 'Parisienne', cursive;
     margin-top: 0;
     margin-bottom: 0;
 }
 .top-container{
-    background-color: rebeccapurple;
-    
-    border: solid 20px;
-    margin-left: 320px;
+    position: relative;
 }
 .middle-container{
     background-color: aqua;
-    margin-left: 660px;
+    margin-left: 700px;
+}
+.cloud-top {
+    position: relative;
+    left: 260px;
+    top: 30px;
+}
+.cloud-bottom {
+    position: absolute;
+    top: 180px;
+    left: 660px;
+
 }
