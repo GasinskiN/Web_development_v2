@@ -26,6 +26,7 @@ h3{
 }
 a{
     color: #11999E;
+    text-decoration: none;
 }
 hr{
     border-top: 10px dotted #EAF6F6;
@@ -47,7 +48,7 @@ hr{
 .top-container{
     background-color: #EAF6F6;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     margin-bottom: 70px;
 }
 .cloud-top {
@@ -59,7 +60,11 @@ hr{
     position: absolute;
     top: 480px;
     left: 610px;
-
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 80px;
+    padding-top: 30px;
 }
 .snowboarding {
     width: 25%;
@@ -67,6 +72,9 @@ hr{
     margin-left: 30px;
     margin-bottom: 50px;
     float: right;
+    -webkit-border-radius: 40;
+    -moz-border-radius: 40;
+    border-radius: 30px;
 }
 .programming-image {
     width: 25%;
@@ -76,6 +84,9 @@ hr{
 }
 .mypicture {
     width: 14%;
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 140px;
 }
 .top-skill {
     padding-top: 10px;
@@ -95,6 +106,7 @@ hr{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+
   }
   
   .btn:hover {
@@ -106,6 +118,16 @@ hr{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
+  .footer-link {
+    padding: 10px 40px;
+    font-size: 1.5rem;
+  }
   #coding-slopes {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+  }
+  #copyright {
+    color: #EAF6F6;
+  }
+  #shout-out {
+    font-size: 0.7rem;
   }
