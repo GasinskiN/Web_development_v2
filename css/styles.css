@@ -3,6 +3,7 @@ margin: 0;
 text-align: center;
 color: #40514E;
 font-family: 'Rubik', sans-serif;
+line-height: 1.4;
 }
 
 div{
@@ -37,6 +38,7 @@ hr{
     border-left: transparent;
     width: 5%;
     clear: both;
+    margin: 60px auto;
 
 }
 .skill-row{
@@ -103,14 +105,14 @@ hr{
     -webkit-border-radius: 60;
     -moz-border-radius: 60;
     border-radius: 60px;
-    font-family: Georgia;
+    font-family: 'Rubik', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 
   }
-  
+
   .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -124,11 +126,20 @@ hr{
     padding: 10px 40px;
     font-size: 1.5rem;
   }
+  .footer-link:hover {
+    color:#40514E;
+  }
+  .intro {
+    width: 30%;
+    margin: auto;
+  }
   #coding-slopes {
     margin-bottom: 50px;
   }
   #copyright {
     color: #EAF6F6;
+    font-size: 0.7rem;
+    padding: 14px 0;
   }
   #shout-out {
     font-size: 0.7rem;
